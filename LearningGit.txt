@@ -1,1 +1,27 @@
-How to initilize git to ur project
+Steps to Link a Project to Git
+Initialize Git in Your Project
+Open the terminal in your project folder and run:             git init
+This sets up Git in your project and Create .git folder 
+
+Stage All Files
+Add all files to the Git staging area:                        git add .
+
+Commit the Files
+Commit the staged files with a message:                      git commit -m "Initial commit"
+
+
+Create a Remote Repository
+Go to your Git platform (e.g., GitHub, GitLab).
+Create a new repository.
+Copy the repository URL (HTTPS or SSH).
+Link the Local Repository to the Remote
+Link your local project to the remote repository:            git remote add origin <REMOTE_URL>
+Replace <REMOTE_URL> with your repository URL.
+
+
+ Create a branch                                :           git branch -M main
+ this will create a branch 
+ 
+Push the code to the branch                 :            git push -u origin main
+
+Refresh the Git GUI and see the branch created and code will be available 
