@@ -1,0 +1,1 @@
+How to initilize git to ur project
